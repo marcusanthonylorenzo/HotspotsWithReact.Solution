@@ -1,9 +1,9 @@
-# HotspotsAPI
+# HotspotsAPI + React
 #### By _**Marcus Lorenzo**_
 
 
 
-### A simple API using pagination, which returns a list of some of the most trending restaurants in Australia.
+### Attempting to access a simple API using pagination, which returns a list of some of the most trending restaurants in Australia. Unable to complete as I am attempting to enable CORS in my server code. I imagine that is the only limiting factor - goal was to populate the browser with paginated data.
 
 ![https___localhost_5001_api_Restaurants - Google Chrome 2022-06-10 12-18-32](https://user-images.githubusercontent.com/100096239/173136319-81ad15cd-4ee6-4eb8-997f-e1c6f7335cfa.gif)
 
@@ -165,7 +165,8 @@ The response will return an individual object or array of objects depending on r
 - To view tests via MSTest, in your CLI type `dotnet test`.
 
 #### Known Bugs:
-
+- CORS disabled.
+- Deeply nested directories for backend code, due to file conflicts between React directory `ClientApp` and .Net directory `HotspotsAPI`
 
 ---
 | **_License_:** |
